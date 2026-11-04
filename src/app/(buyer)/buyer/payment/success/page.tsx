@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function PaymentSuccess(){return <div className="surface mx-auto mt-10 max-w-xl p-10 text-center"><div className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-brand-100 text-3xl text-brand-700">✓</div><h2 className="mt-5 text-3xl font-black">Payment status received</h2><p className="mt-3 text-slate-500">This is a demonstration screen. No real payment was processed.</p><Link href="/buyer/orders" className="btn btn-primary mt-7">View orders</Link></div>}
